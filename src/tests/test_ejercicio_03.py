@@ -47,7 +47,7 @@ def test_precision_decimal():
     
 def test_limite_inferior_no_permitido():
     #Arrange
-    celsius = -300
+    celsius = -273.16
 
     #Act & Assert
     with pytest.raises(ValueError):
