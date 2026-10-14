@@ -1,5 +1,4 @@
 import pytest
-# Ajusta la ruta de importación según cómo se llame tu archivo en src
 from src.ejercicio_01 import sumar
 
 
