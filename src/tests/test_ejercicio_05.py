@@ -11,7 +11,28 @@ def test_menor_de_edad():
 
     # Assert
     assert resultado == esperado
-    
+
+def  test_mayor_edad_exacto():
+    # Arrange
+    edad = 18
+    esperado = True
+
+    # Act
+    resultado = es_mayor_de_edad(edad)
+
+    # Assert
+    assert resultado == esperado  
+
+def  test_mayor_edad_superior():
+    # Arrange
+    edad = 19
+    esperado = True
+
+    # Act
+    resultado = es_mayor_de_edad(edad)
+
+    # Assert
+    assert resultado == esperado  
 
     
 def test_edad_negativa():
